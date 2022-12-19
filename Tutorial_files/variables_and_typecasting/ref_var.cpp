@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
 {
     int abir = 200;
 
-    int &miley = abir; // reference variable
+    int & miley = abir; // reference variable
     miley = 140;
     cout << "This is the miley variable. " << miley << endl;
     cout << abir << endl;
